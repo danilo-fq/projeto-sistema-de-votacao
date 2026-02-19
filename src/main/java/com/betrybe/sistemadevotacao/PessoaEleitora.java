@@ -15,6 +15,7 @@ public class PessoaEleitora extends Pessoa {
 
   /**
    * Inicializa uma nova instância de uma pessoa eleitora com nome e CPF.
+   *
    * @param nome O nome completo da pessoa eleitora.
    * @param cpf O CPF da pessoa eleitora para validação de voto.
    */
