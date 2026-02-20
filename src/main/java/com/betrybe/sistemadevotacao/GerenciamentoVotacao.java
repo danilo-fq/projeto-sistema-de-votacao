@@ -44,12 +44,28 @@ public class GerenciamentoVotacao implements  GerenciamentoVotacaoInterface {
 
   @Override
   public void cadastrarPessoaCandidata(String nome, int numero) {
+    boolean hasPessoaCandidata = this.getPessoasCandidatas().stream()
+        .anyMatch(candidato -> candidato.getNumero() == numero);
 
+    if (hasPessoaCandidata) {
+      System.out.println("Número da pessoa candidata já utilizado!");
+    } else {
+      PessoaCandidata candidato = new PessoaCandidata(nome, numero);
+      this.pessoasCandidatas.add(candidato);
+    }
   }
 
   @Override
   public void cadastrarPessoaEleitora(String nome, String cpf) {
+    boolean hasPessoaEleitora = this.getPessoasEleitoras().stream()
+        .anyMatch(eleitor -> cpf.equals(eleitor.getCpf()));
 
+    if (hasPessoaEleitora) {
+      System.out.println("Pessoa eleitora já cadastrada!");
+    } else {
+      PessoaEleitora eleitor = new PessoaEleitora(nome, cpf);
+      this.pessoasEleitoras.add(eleitor);
+    }
   }
 
   @Override
