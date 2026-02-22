@@ -94,10 +94,11 @@ public class GerenciamentoVotacao implements  GerenciamentoVotacaoInterface {
     } else {
       int totalVotes = this.pessoasCandidatas.stream().mapToInt(PessoaCandidata::getVotos).sum();
       for (PessoaCandidata candidato : this.getPessoasCandidatas()) {
+        int porcentagem = (int) Math.round((double) candidato.getVotos() / totalVotes * 100);
         System.out.printf("Nome: %s - %d votos ( %d%% )\n",
             candidato.getNome(),
             candidato.getVotos(),
-            candidato.getVotos() / totalVotes * 100
+            porcentagem
         );
       }
       System.out.println("Total de votos: " + totalVotes);
