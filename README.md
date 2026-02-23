@@ -2,11 +2,11 @@
 
 Sistema robusto de gerenciamento de votação desenvolvido em Java, aplicando princípios avançados de Programação Orientada a Objetos. O sistema permite o cadastro de candidatos e eleitores, realização de votações com controle de unicidade de voto, e geração de relatórios de resultados em tempo real.
 
-## 🎯 Sobre o Projeto
+## Sobre o Projeto
 
 Este projeto foi desenvolvido durante a **Aceleração Java da Trybe** com foco em **Programação Orientada a Objetos**, aplicando conceitos como **herança**, **polimorfismo**, **abstração** e **interfaces**. O sistema simula um processo eleitoral completo com validações de integridade e controle de fluxo.
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 ### 🧑‍💼 Gestão de Candidatos
 - ✅ Cadastro de pessoas candidatas com nome e número
@@ -39,9 +39,9 @@ Este projeto foi desenvolvido durante a **Aceleração Java da Trybe** com foco 
 - **JUnit 5** - Framework de testes unitários
 - **Google Checkstyle** - Padrão de código
 
-## 🏗️ Arquitetura e Conceitos de POO
+## Arquitetura e Conceitos de POO
 
-### 📐 Hierarquia de Classes
+### Hierarquia de Classes
 
 ```
 Pessoa (abstract)
@@ -52,7 +52,7 @@ GerenciamentoVotacaoInterface
 └── GerenciamentoVotacao (implements)
 ```
 
-### 🎨 Conceitos Aplicados
+### Conceitos Aplicados
 
 #### 1. **Abstração**
 - Classe abstrata `Pessoa` como base comum
@@ -91,7 +91,7 @@ GerenciamentoVotacaoInterface
 - `try-catch` para `NumberFormatException`
 - Validação robusta de entrada do usuário
 
-## 📦 Como Executar
+## Como Executar
 
 ### Pré-requisitos
 - Java 17 ou superior
@@ -125,9 +125,9 @@ mvnw.cmd clean install
 mvnw.cmd exec:java -Dexec.mainClass="com.betrybe.sistemadevotacao.Principal"
 ```
 
-## 💻 Fluxo de Uso
+## Fluxo de Uso
 
-### 1️⃣ Cadastro de Candidatos
+### 1️ Cadastro de Candidatos
 ```
 Cadastrar pessoa candidata?
 1 - Sim
@@ -141,7 +141,7 @@ Entre com o número da pessoa candidata:
 10
 ```
 
-### 2️⃣ Cadastro de Eleitores
+### 2️ Cadastro de Eleitores
 ```
 Cadastrar pessoa eleitora?
 1 - Sim
@@ -155,7 +155,7 @@ Entre com o CPF da pessoa eleitora:
 123.456.789-00
 ```
 
-### 3️⃣ Votação
+### 3️ Votação
 ```
 Entre com o número correspondente à opção desejada:
 1 - Votar
@@ -169,7 +169,7 @@ Entre com o número da pessoa candidata:
 10
 ```
 
-### 4️⃣ Resultado Final
+### 4️ Resultado Final
 ```
 Nome: Maria Silva - 45 votos ( 75% )
 Nome: João Pedro - 15 votos ( 25% )
@@ -229,7 +229,7 @@ Este projeto evidencia domínio dos seguintes conceitos:
 - ✅ Tratamento de exceções
 - ✅ Menu interativo no terminal
 
-## 🔒 Regras de Negócio Implementadas
+## Regras de Negócio Implementadas
 
 1. **Unicidade de Candidato**: Não permite cadastro de dois candidatos com o mesmo número
 2. **Unicidade de Eleitor**: Valida CPF único no cadastro de eleitores
@@ -238,7 +238,7 @@ Este projeto evidencia domínio dos seguintes conceitos:
 5. **Integridade Eleitoral**: Garante que apenas eleitores e candidatos cadastrados participem
 6. **Cálculo Preciso**: Porcentagens com arredondamento matemático correto
 
-## 👨‍💻 Autor
+## Autor
 
 Desenvolvido por **Danilo Ferreira Queiroz**
 
