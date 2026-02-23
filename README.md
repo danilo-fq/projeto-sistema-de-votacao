@@ -4,7 +4,7 @@ Sistema robusto de gerenciamento de votação desenvolvido em Java, aplicando pr
 
 ## 🎯 Sobre o Projeto
 
-Este projeto foi desenvolvido durante a **Aceleração Java da Trybe (2024)** com foco em **Programação Orientada a Objetos**, aplicando conceitos como **herança**, **polimorfismo**, **abstração** e **interfaces**. O sistema simula um processo eleitoral completo com validações de integridade e controle de fluxo.
+Este projeto foi desenvolvido durante a **Aceleração Java da Trybe** com foco em **Programação Orientada a Objetos**, aplicando conceitos como **herança**, **polimorfismo**, **abstração** e **interfaces**. O sistema simula um processo eleitoral completo com validações de integridade e controle de fluxo.
 
 ## ✨ Funcionalidades
 
@@ -249,7 +249,7 @@ Desenvolvido por **Danilo Ferreira Queiroz**
 
 ## 📝 Nota sobre o Projeto
 
-Este projeto foi desenvolvido como parte do programa de **Aceleração Java da Trybe** em 2024, durante o módulo de **Orientação a Objetos**. O código demonstra aplicação prática de conceitos avançados de POO, incluindo herança, polimorfismo, interfaces e programação funcional com Java Streams.
+Este projeto foi desenvolvido como parte do programa de **Aceleração Java da Trybe**, durante o módulo de **Orientação a Objetos**. O código demonstra aplicação prática de conceitos avançados de POO, incluindo herança, polimorfismo, interfaces e programação funcional com Java Streams.
 
 Todo o código-fonte foi desenvolvido por mim, aplicando as melhores práticas de desenvolvimento orientado a objetos e seguindo os padrões de código Google Checkstyle.
 
