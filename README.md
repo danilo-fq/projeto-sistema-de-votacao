@@ -238,16 +238,6 @@ Este projeto evidencia domínio dos seguintes conceitos:
 5. **Integridade Eleitoral**: Garante que apenas eleitores e candidatos cadastrados participem
 6. **Cálculo Preciso**: Porcentagens com arredondamento matemático correto
 
-## 🚀 Possíveis Melhorias Futuras
-
-- [ ] Persistência de dados em banco de dados
-- [ ] Interface gráfica (JavaFX ou Swing)
-- [ ] Autenticação de eleitores
-- [ ] Geração de relatórios em PDF
-- [ ] Suporte a múltiplas eleições simultâneas
-- [ ] API RESTful para acesso remoto
-- [ ] Logs de auditoria
-
 ## 👨‍💻 Autor
 
 Desenvolvido por **Danilo Ferreira Queiroz**
